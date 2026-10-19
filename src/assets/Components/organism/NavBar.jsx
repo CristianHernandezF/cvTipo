@@ -3,7 +3,7 @@ import { UserOutlined, AppstoreOutlined, SolutionOutlined, ReadOutlined, MailOut
 
 const { Header } = Layout;
 const { Text } = Typography;
-
+// los items nos indica a que parte se va a mover de la pagina
 export const Navbar = () => {
     const items = [
         { label: <a href="#personal">Sobre mí</a>, key: 'personal', icon: <UserOutlined /> },

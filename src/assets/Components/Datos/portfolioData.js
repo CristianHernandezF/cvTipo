@@ -1,3 +1,5 @@
+/* Esta parte de datos sirve para tener mis datos centralizados y llamarlos cuando necesite*/
+
 export const personalInfo = {
     name: "Cristian Hernandez",
     role: "Analista Programador - Tecnologo Medico",

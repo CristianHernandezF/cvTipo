@@ -4,6 +4,7 @@ const { Footer } = Layout;
 const { Text } = Typography;
 
 export const FooterSection = () => {
+    // Date() toma la fecha del sistema y get full year obtiene el año.
     const currentYear = new Date().getFullYear();
 
     return (

@@ -3,7 +3,8 @@ import { ExperienceCard } from '../molecules/ExperienceCard';
 import { experiences } from '../Datos/portfolioData.js';
 
 const { Title } = Typography;
-
+// se utiliza timelineitems como constante ya que quiero hacer un map de timelines con la molecula experienceCard que contiene mis datos de experiencias profesionales
+// en formato card.
 export const ExperienceSection = () => {
     const timelineItems = experiences.map((item) => ({
         children: (

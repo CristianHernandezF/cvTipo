@@ -2,6 +2,7 @@ import { Card } from 'antd';
 import { ProfileHeader } from '../molecules/ProfileHeader';
 import { personalInfo } from '../Datos/portfolioData.js';
 
+
 export const PersonalSection = () => {
     const { name, role, bio, avatarUrl } = personalInfo;
     return (

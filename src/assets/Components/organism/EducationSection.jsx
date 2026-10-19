@@ -2,7 +2,8 @@ import { Card, List, Tag, Typography } from 'antd';
 import { education } from '../Datos/portfolioData.js';
 
 const { Title } = Typography;
-
+//  tag nos sirve para darle un estilo definido a los item que se crean
+// renderItem nos esta ayudando a decir que elemento se va a renderizar en este caso los datos en portfolioData.
 export const EducationSection = () => {
     return (
         <section id="estudios" style={{ padding: '20px 0' }}>

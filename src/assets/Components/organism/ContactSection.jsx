@@ -12,7 +12,7 @@ export const ContactSection = () => {
 
     const onFinish = (values) => {
         setLoading(true);
-        // Simulación de envío de formulario con estado
+        // Simular que se envia el formulario
         setTimeout(() => {
             console.log('Mensaje recibido:', values);
             message.success('¡Mensaje enviado con éxito! Me pondré en contacto contigo pronto.');
@@ -20,6 +20,8 @@ export const ContactSection = () => {
             setLoading(false);
         }, 1200);
     };
+
+    // seccion de formulario en el cual los items corresponden a cada uno de las partes de formulario en este caso, nombre, correo y mensaje
 
     return (
         <section id="contacto" style={{ padding: '20px 0' }}>
@@ -52,6 +54,7 @@ export const ContactSection = () => {
                 <Divider style={{ margin: '24px 0' }} />
 
                 <div style={{ maxWidth: 600, margin: '0 auto' }}>
+
                     <Form
                         form={form}
                         layout="vertical"
