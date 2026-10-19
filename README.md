@@ -1,16 +1,48 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pagina web que contiene un CV personal
 
-Currently, two official plugins are available:
+Librerias y Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+#React + vite
+#Libreria: Ant D
+#Libreria Icons: Ant D
+#Testing: ViteTest
 
-## React Compiler
+Instalar node.js,
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tener un Ide que pueda leer los archivos recomendado: Visual Studio Code o WebStorm
 
-## Expanding the ESLint configuration
+instalar ant D:
+npm install antd --save
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Instalar libreria de iconos ant D:
+npm install antd @ant-design/icons
+
+
+Instalar con npm install la libreria ViteTest para comprobar las pruebas
+
+npm install -D vitest @testing-library/react @testing-library/jest-dom @testing-library/user-event jsdom
+
+
+Esta pagina presenta 
+
+6 Secciones y 1 NavBar
+
+de las 6 secciones:
+
+Se tiene la Seccion personal en la cual se muestra una imagen, con el nombre y titulo personal
+
+Seccion Experiencia laboral en la cual se muestra la empresa, el cargo, meses o años al cargo y pequeña descripcion
+
+Seccion Educacion en la cual se muestra titulo obtenido o por obtener, institución donde estudie y progreso y año de titulacion o año de progreso
+
+Seccion projectos en la cual se muestra una card la cual contiene una imagen, titulo, descripcion y redireccion a el projecto en github
+
+seccion contacto en la cual esta un formulario y botones interactuables que los lleva directamente a mis redes sociales profesionales (github y linkedin)
+
+Seccion Footer en la cual esta el año que se realizo el proyecto y los derechos reservados
+
+navbar: presenta navegacion entre las distintas secciones de la pagina
+
+
+
