@@ -44,5 +44,46 @@ Seccion Footer en la cual esta el año que se realizo el proyecto y los derechos
 
 navbar: presenta navegacion entre las distintas secciones de la pagina
 
+```
+src/
+├── assets/
+│   ├── Components/
+│   │   ├── atoms/
+│   │   │   └── UserAvatar.jsx
+│   │   ├── Datos/
+│   │   │   └── portfolioData.js
+│   │   ├── Images/
+│   │   │   ├── ImagenPerfil.jpg
+│   │   │   ├── Nube.jpg
+│   │   │   └── Traumed.png
+│   │   ├── layouts/
+│   │   │   ├── ContactSection.test.jsx
+│   │   │   ├── EducationSection.test.jsx
+│   │   │   ├── ExperienceSection.test.jsx
+│   │   │   ├── FooterSection.test.jsx
+│   │   │   ├── NavBar.test.jsx
+│   │   │   ├── PersonalSection.test.jsx
+│   │   │   └── ProjectSection.test.jsx
+│   │   ├── molecules/
+│   │   │   ├── ExperienceCard.jsx
+│   │   │   ├── ProfileHeader.jsx
+│   │   │   └── ProjectCard.jsx
+│   │   └── organism/
+│   │       ├── ContactSection.jsx
+│   │       ├── EducationSection.jsx
+│   │       ├── ExperienceSection.jsx
+│   │       ├── FooterSection.jsx
+│   │       ├── NavBar.jsx
+│   │       ├── PersonalSection.jsx
+│   │       └── ProjectSection.jsx
+│   ├── hero.png
+│   ├── react.svg
+│   └── vite.svg
+├── App.css
+├── App.jsx
+├── index.css
+├── main.jsx
+└── setupTests.js
+```
 
 
